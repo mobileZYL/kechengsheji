@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">kechengsheji</string>
+    <string name="name">姓名</string>
+    <string name="android_demo">Android课程信息系统</string>
+    <string name="contextTitle">快捷菜单快捷菜单</string>
+</resources>
