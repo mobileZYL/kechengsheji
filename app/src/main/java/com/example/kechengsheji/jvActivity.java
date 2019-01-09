@@ -30,7 +30,13 @@ public class jvActivity extends AppCompatActivity {
             dialog=new AlertDialog.Builder( this ).setTitle( "你好" )
                     .setMessage( "你确定要离开" )
                     .setIcon( R.mipmap.ic_launcher )
-                    .setPositiveButton( "确定",null )
+                    .setPositiveButton( "确定", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            Intent intent=new Intent(jvActivity.this,kcxxActivity.class);
+                            startActivity( intent );
+                        }
+                    } )
                     .setNegativeButton( "取消",null )
                     .create();
             dialog.show();
