@@ -30,7 +30,7 @@ public class activity_cg extends AppCompatActivity {
                 @Override
                 public void onClick(View v) {
                     Intent intent = new Intent();
-                    intent.setClass(getApplicationContext(), activity_cg.class);
+                    intent.setClass(getApplicationContext(), kcxxActivity.class);
                     startActivity(intent);
                 }
             });

@@ -48,7 +48,7 @@ public class ListViewActivity extends Activity {
                         startActivity(intent);
                         break;
                     case 1:
-                        intent.setClass(getApplicationContext(),activity_cg.class);
+                        intent.setClass(getApplicationContext(),kcxxActivity.class);
                         startActivity(intent);
                         break;
                     /*case 2:

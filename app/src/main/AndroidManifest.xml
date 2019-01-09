@@ -21,7 +21,9 @@
         <activity android:name=".activity_cg" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".Main2Activity" />
-
+        <activity android:name=".kcxxActivity" />
+        <activity android:name=".yyActivity" />
+        <activity android:name=".jvActivity"></activity>
     </application>
 
 </manifest>

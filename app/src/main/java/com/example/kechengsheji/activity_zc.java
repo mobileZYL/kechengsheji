@@ -20,7 +20,7 @@ public class activity_zc extends AppCompatActivity {
         ab_main_qs=(EditText) findViewById(R.id.ab_main_qs);
         ab_main_qsr=(EditText) findViewById(R.id.ab_main_qsr);
         Button bt_main_ff = (Button) findViewById(R.id.bt_main_ff);
-        Button bt_main_fh = (Button) findViewById(R.id.bt_main_fh);
+        Button bt_main_fh = (Button) findViewById(R.id.bt_main_yy );
         bt_main_ff.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
